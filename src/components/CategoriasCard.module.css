@@ -1,0 +1,22 @@
+.titulo{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Categorias {
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+}
+
+.check{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 426px) {
+    .Categorias {
+        padding: 20px;
+
+    }
+}

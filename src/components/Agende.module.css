@@ -1,0 +1,24 @@
+.Agende{
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.botao{
+    width: 280px;
+    padding: 10px;
+    background-color: #0096FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 35px auto;
+}
+
+@media (max-width: 426px) {
+    .Agende {
+        padding: 5%;
+        margin-bottom: 10px;
+
+    }
+}

@@ -1,0 +1,11 @@
+.Categorias {
+    background-color: #F4F3F3;
+
+}
+
+@media (max-width: 426px) {
+    .Categorias {
+        margin-top: 28px;
+
+    }
+}

@@ -1,0 +1,40 @@
+.logo{
+    width: 120px;
+    padding: 10px;
+}
+
+.tituloFooter{
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pFooter{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.iconsImg{
+    width: 25px;
+    margin: 7px;
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+
+
+}
+
+@media (max-width: 426px) {
+    .logo {
+        width: 80px;
+        padding-top: 20px;
+
+
+    }
+}

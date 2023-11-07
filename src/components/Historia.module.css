@@ -1,0 +1,28 @@
+.Titulo{
+    color: #0096FF;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.Subtitulo{
+    font-weight: normal;
+    margin-bottom: 0px;
+
+}
+
+.Historia{
+    padding-bottom: 5%;
+    padding-top: 0px;
+    padding-left: 10%;
+    padding-right:  10%;
+    background-color: #F4F3F3;
+
+}
+
+@media (max-width: 426px) {
+    .Historia {
+        padding: 30px 10px;
+        flex-direction: column;
+    }
+}

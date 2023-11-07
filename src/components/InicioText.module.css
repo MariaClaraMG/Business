@@ -1,0 +1,49 @@
+.InicioText{
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F4F3F3;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.Titulo{
+    color: #0096FF;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+}
+
+.Subtitulo{
+    font-weight: normal;
+
+}
+
+.Inicio{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 426px ) {
+    .InicioText {
+        flex-direction: column;
+    }
+
+    .Inicio{
+        margin-bottom: 10px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .Subtitulo{
+        text-align: justify;
+        margin-bottom: 30px;
+        margin-top: 5px;
+
+    }
+
+
+}
